@@ -1,0 +1,39 @@
+/* components/Home.module.css */
+/* page.module.css */
+
+.backgroundContainer {
+  width: 100%; /* 幅を親要素に合わせる */
+  height: auto;
+}
+
+.mainContent {
+  width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.midashiText {
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 65%;
+  min-width: 550px;
+  margin: 0 auto;
+}
+
+.startBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* ボタンの直径 */
+  height: 100px;
+  border-radius: 50%; /* 円形にする */
+  background-color: beige; /* 背景色（黄色） */
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影 */
+  transition: background-color 0.3s ease;
+}
