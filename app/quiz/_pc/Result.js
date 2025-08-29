@@ -86,7 +86,7 @@ const Result = ({ correctAnswersCount, handleRestartQuiz }) => {
         </div>
       </div>
       <div className="btn-div">
-        <Link href="https://sscykhm2.xsrv.jp/om-test/">自然派ライフトップへ</Link>
+        <Link href="https://shizenhalife.com/">自然派ライフトップへ</Link>
         <Link href="/">クイズトップへ</Link>
       </div>
     </div>
